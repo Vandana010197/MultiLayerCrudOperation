@@ -1,0 +1,33 @@
+﻿@model CommonAccessLayer.Model.Employees
+@{
+}
+<div class="row">
+    <div class="col-6 offset-3">
+        <form a method="post" asp-action="Create">
+
+            <div class="form-group">
+                <input type="hidden" asp-for="Id"/>
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Contact"></label>
+                <input asp-for="Contact" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address"></label>
+                <input asp-for="Address" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CommonAccessLayer.Model.Employees> 
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h6 class="display-4">Employees</h6>
+
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+
+        
+            @foreach (var emp in Model)
+            {
+    <tr>
+        <td>@emp.Id</td>
+        <td>@emp.Name</td>
+        <td>@emp.Email</td>
+        <td>@emp.Contact</td>
+        <td>@emp.Address</td>
+        <td>
+            <a asp-action="Update" asp-route-id="@emp.Id"onclick="return confirm('Are you sure to edit this record?')">Update</a>||
+            <a asp-action="Delete" asp-route-id="@emp.Id"onclick="return confirm('Are you Sure to delete this record?')">Delete</a>
+
+        </td>
+    </tr>
+            }
+        
+    </table>
+    </div>

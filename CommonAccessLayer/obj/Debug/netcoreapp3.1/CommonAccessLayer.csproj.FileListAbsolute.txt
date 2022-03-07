@@ -1,0 +1,10 @@
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\bin\Debug\netcoreapp3.1\CommonAccessLayer.deps.json
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\bin\Debug\netcoreapp3.1\CommonAccessLayer.dll
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\bin\Debug\netcoreapp3.1\CommonAccessLayer.pdb
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.AssemblyInfo.cs
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.dll
+C:\Users\Satish Maurya\source\repos\CommonAccessLayer\obj\Debug\netcoreapp3.1\CommonAccessLayer.pdb
